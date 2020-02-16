@@ -1,0 +1,10 @@
+-- 设计：前两个字段是输入，最后一个字段是预期结果。
+create database risedark;
+show databases;
+use risedark;
+CREATE TABLE testsql (Movie_name char(30),Movie_Property char(30),Excpect_result char(30));
+insert testsql VALUES ("平凡之路","上映日期","2020/1/28");
+insert testsql VALUES ("叶问","主演","甄子丹");
+insert testsql VALUES ("超人","主演","克里斯托弗");
+insert testsql VALUES ("蜘蛛侠2","女主角","克尔斯滕");
+select * from testsql;
