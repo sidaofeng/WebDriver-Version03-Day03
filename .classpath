@@ -6,21 +6,13 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="E:/Selenium/selenium-server-standalone-3.141.59.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.19.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/eclipse-workspace/Con_Browser/geckodriver.exe"/>
+	<classpathentry kind="lib" path="E:/Selenium/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="E:/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

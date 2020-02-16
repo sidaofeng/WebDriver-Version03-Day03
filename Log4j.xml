@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false">
+	
+	<appender name="fileAppender" class="org.apache.log4j.FileAppender">
+	
+		<param name="Threshold" value="INFO" /> 
+		<param name="File" value="myLog_logfile.log" /> <!-- 设置日志输出文件名 -->
+
+	
+		<layout class="org.apache.log4j.PatternLayout">
+		 	<param name="ConversionPattern" value="[%d{MMdd HH:mm:ss SSS\} %-5p] [%t] %c{3\} - %m%n" />
+	    </layout> 
+
+    </appender>
+	
+
+	<!-- 根logger的设置-->
+	<root> 
+		<level value="INFO" />
+		<appender-ref ref="fileAppender" /> 
+	</root> 
+
+</log4j:configuration>
